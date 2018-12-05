@@ -1,0 +1,46 @@
+.company {
+  width: 400px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.company__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.company__item {
+  margin-bottom: 10px;
+  padding: 10px;
+
+  border: 1px solid #129466;
+}
+
+.company__item--active {
+  color: #000;
+  
+  background-color: #129466;
+}
+
+.company__item:hover {
+  color: #000;
+  
+  background-color: #0b6041;
+}
+
+.company__edit {
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  
+  color: #000;
+  text-align: center;
+
+  background-color: #129466;
+  border: none;
+
+}
