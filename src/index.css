@@ -1,9 +1,163 @@
 body {
-  margin: 0;
-  padding: 0;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 0;
   
-
   background-color: #000;
   color: #129466;
 }
 
+.company-list {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+
+  list-style: none;
+}
+
+.company__item {
+  margin-bottom: 20px;
+  padding: 0;
+
+  border: 2px dotted #129466;
+}
+
+.company__item--active {
+  background-color: #129466;
+}
+
+.company__item:hover {
+  background-color: #0b6041;
+  border: 2px solid #129466;
+}
+
+.company-list__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+
+  color: white;
+  text-decoration: none;
+}
+
+.company-page__title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.company-page__table {
+  margin: 0 auto;
+
+  font-size: 18px;
+  text-align: right;
+}
+
+.company-page__save {
+  border: 2px solid #0b6041;
+}
+
+.company-page__table-header {
+  padding: 5px;
+
+  text-align: left;
+}
+
+.edit__text {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 300px;
+
+  color: #0b6041;
+  font-size: 16px;
+  text-align: center;
+
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid #0b6041;
+}
+
+.edit__select {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100px;
+
+  color: #0b6041;
+  font-size: 16px;
+  text-align: center;
+  background-color: black;
+  border: 2px solid #0b6041;
+}
+
+.react-datepicker-wrapper {
+  margin-left: 200px;
+}
+
+.edit__checkbox {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+
+  font-size: 20px;
+}
+
+
+.button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px 0;
+
+  color: black;
+  font: inherit;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background: #0b6041;
+  border: none;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  font-size: 20px;
+  text-align: center;
+  vertical-align: center;
+
+  border: 2px solid #129466;
+
+  transform: translate(-50%, -50%);
+}
+
+
+/*
+
+
+.company__edit {
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  
+  color: #000;
+  text-align: center;
+
+  background-color: #129466;
+  border: none;
+}
+
+.red {
+  color: red;
+}
+*/

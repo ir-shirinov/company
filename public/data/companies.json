@@ -1,0 +1,5 @@
+[{"id":1,"name":"Apple","ogrn":1234567891011,"type":"OOO","date":"1992-01-16T09:52:35.555Z","active":true},
+{"id":2,"name":"Тинькофф","ogrn":6235567391011,"type":"IP","date":"1998-05-19T05:25:55.555Z","active":true},
+{"id":3,"name":"Google","ogrn":4234567893011,"type":"OOO","date":"1995-03-18T19:39:15.555Z","active":true},
+{"id":4,"name":"Dendy","ogrn":5236567896611,"type":"IP","date":"1988-11-15T00:05:55.555Z","active":false},
+{"id":5,"name":"Nokia","ogrn":5234667591011,"type":"OOO","date":"1992-01-16T09:52:35.555Z","active":false}]
